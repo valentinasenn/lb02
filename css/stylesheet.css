@@ -1,34 +1,80 @@
+
+h4 {
+
+    margin: 30px;
+    color: #6c757d;
+}
+.page-section{
+    background-color: white;
+}
+.container{
+
+    background-color: white;
+
+}
+.section-heading {
+    margin-top: 200px;
+    margin-bottom: 40px;
+    color: #343a40;
+
+}
 .carousel {
+    color: white;
+background-color: white;
     width: 60%;
     margin: 5% auto;
 }
+
+.team-member{
+
+    background-color:white;
+    color: black;
+}
+
+.div.container{
+    background-color:white;
+
+
+}
 .navbar-brand {
-    margin: 0px;
-    padding: 0px;
+
+    letter-spacing: 0.1em;
+    word-spacing: 0.25em;
+    margin: 10px;
+    padding: 1px;
+    hover: bold;
+
+
 }
 .logo {
     height: 35px;
-    padding-left: 10px;
-    padding-right: 10px;
 }
 .row {
+
     padding-right: 30px;
     padding-left: 30px;
     padding-top: 30px;
 }
-
+.div-row{
+ background-color: white;
+}
 .body {
-    background-color: black;
+    background-color: white;
 }
 
-.mx-auto rounded-circle
+.mx-auto rounded-circle{
+    margin-top: 100px;
+}
 
 .div-row {
+
     margin: 0px;
     padding: 0px;
 }
 
-
+.row{
+    background-color: white;
+}
 .timeline {
     position: relative;
     padding: 0;
@@ -84,9 +130,9 @@
     margin-left: 0;
     text-align: center;
     color: white;
-    border: 7px solid #e9ecef;
+    border: 5px solid #e9ecef;
     border-radius: 100%;
-    background-color: #ffc800;
+    background-color: black;
 }
 .timeline > li .timeline-image h4, .timeline > li .timeline-image .h4 {
     font-size: 10px;
@@ -119,12 +165,18 @@
 }
 .timeline .timeline-heading h4.subheading, .timeline .timeline-heading .subheading.h4 {
     text-transform: none;
+    color: #343a40;
 }
 .timeline .timeline-body > ul,
 .timeline .timeline-body > p {
     margin-bottom: 0;
+
 }
 
+ul {
+    margin: auto;
+    justify-content: space-around;
+}
 @media (min-width: 768px) {
     .timeline:before {
         left: 50%;
@@ -198,6 +250,7 @@
 }
 
 .team-member {
+
     margin-bottom: 3rem;
     text-align: center;
 }
@@ -207,6 +260,146 @@
     border: 0.5rem solid rgba(0, 0, 0, 0.1);
 }
 .team-member h4, .team-member .h4 {
-    margin-top: 1.5rem;
-    margin-bottom: 0;
+
+}
+@import url(https://fonts.googleapis.com/css?family=Alegreya+Sans:300);
+
+body {
+    font-family: 'Alegreya Sans', sans-serif;
+}
+
+/* Sticky footer position and size
+-------------------------------------------------- */
+html {
+    position: relative;
+    min-height: 100%;
+}
+body {
+    /* Margin bottom by footer height */
+    margin-bottom: 300px;
+}
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    /* Set the fixed height of the footer here */
+    height: 300px;
+    background-color: white;
+}
+
+/* Taller footer on small screens */
+@media (max-width: 34em) {
+    body {
+        margin-bottom: 500px;
+    }
+    .footer {
+        height: 500px;
+    }
+}
+
+/* Sticky footer style and color
+-------------------------------------------------- */
+footer {
+    padding-top: 80px;
+    background-color:white;
+    color: #bbb;
+    text-align: center;
+}
+
+footer a {
+    color: #999;
+    text-decoration: none;
+}
+footer a:hover, footer a:focus {
+
+    color: #aaa;
+    text-decoration: #f7f7f7;
+    border-bottom:0px dotted #999;
+}
+
+footer .form-control {
+    background-color: darkgrey;
+    box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.1);
+    border: white;
+    resize: none;
+    color: white;
+    padding: 0.4em 0.4em;
+}
+@import url("https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css");
+@import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
+
+.ft14 {
+    font-size: 44px !important;
+    color:red;
+
+}
+
+
+.ft60 {
+    font-size: 60px !important;
+}
+.clr-blue{color:blue;}
+.clr-prl{color:purple;}
+.bg-bl.clr-prl{color:purple;}
+
+.bg-blue{
+    background-color: #1b95e0 !important;
+    color:#ffffff;
+}
+
+i{
+    color: #fff !important;
+}
+
+.email{
+    padding-left: 140px;
+}
+
+nav-link {
+    padding: 10px;
+}
+
+.background-img {
+    background-image: url('../resources/images/streetdance/liabruecke.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+
+.center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30%;
+}
+
+.custom-btn {
+    width: 100%;
+}
+
+.hover {
+    transition: transform .2s;
+}
+
+.hover:hover {
+    opacity: 70%;
+    transform: scale(0.9);
+}
+
+.audio {
+    padding: 10px;
+}
+
+.text-center.text-md-left {
+    padding: 15px;
+}
+
+.btn.btn-primary {
+    background-color: black;
+}
+
+.short-footer {
+    margin-bottom: 300px;
 }
